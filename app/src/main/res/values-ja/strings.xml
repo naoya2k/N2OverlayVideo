@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">N2 Partial Video</string>
+        
+     <string name="app_parentdirectory">[親ディレクトリ]</string>
+
+     <string name="button_stopvideos">再生を停止する</string>
+     <string name="menu_setdirectory">ここをデフォルトにする</string>
+     <string name="menu_settings">設定</string>
+     
+     <string name="video_cannotplay">\"%s\"は再生できませんでした。</string>
+     <string name="video_completed">\"%s\"の再生を終わりました。</string>
+     
+    
+    <string name="pref_directoryList">ディレクトリリストの設定</string>
+    <string name="ignoreUnderscore_title">\"_\"始まりのファイルを隠す</string>
+    <string name="ignoreUnderscore_summary">\"_\"から始まる名前のファイルを表示しない。</string>
+    <string name="ignoreDot_title">ドットファイルを隠す</string>
+    <string name="ignoreDot_summary">\".\"から始まるファイル、\"~\"で終わるファイル、”LOST-DIR”ディレクトリを表示しない。</string>
+    <string name="ignoreInfo_title">".Info"ファイルを隠す</string>
+    <string name="ignoreInfo_summary">\".info\"で終わるファイルを表示しない。</string>
+    <string name="searchInfo_title">".Info"ファイルをチェックする</string>
+    <string name="searchInfo_summary">動画ファイルと同名で拡張子が\"info\"のファイルに\"title=\"から始まる行があればそれをタイトルとして表示する。</string>
+    <string name="pref_misc">いろいろ</string>
+    <string name="ffSeconds_title">FFボタンの秒数</string>
+    <string name="ffSeconds_summary">FFボタンでスキップする秒数(現在値:%s秒).</string>
+    <string name="rewSeconds_title">REWボタンの秒数</string>
+    <string name="rewSeconds_summary">REWボタンでスキップする秒数(現在値:%s秒).</string>
+    <string name="selectSeconds">秒数を選んでください</string>
+    <string name="resetDefault">起動時ディレクトリのリセット</string>
+    <string name="resetDefault_summary">デフォルトディレクトリを\"/sdcard\"(ストレージのトップ)にする。</string>
+</resources>

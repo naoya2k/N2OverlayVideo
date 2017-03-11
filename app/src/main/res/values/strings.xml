@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">N2 Partial Video</string>
+    <string name="button_stopvideos">stop videos</string>
+    <string name="menu_setdirectory">set here to default</string>
+    <string name="menu_settings">settings…</string>
+    <string name="app_parentdirectory">[parent directory]</string>
+    <string name="video_cannotplay">Cannot play \"%s\".</string>
+    <string name="video_completed">Video \"%s\" is completed.</string>
+    <string name="pref_directoryList">directory list settings</string>
+    <string name="ignoreUnderscore_title">Hide Underscore Files</string>
+    <string name="ignoreUnderscore_summary">Hide files whose names begins with underscore.</string>
+    <string name="ignoreDot_title">Hide Dot-Files</string>
+    <string name="ignoreDot_summary">Hide dot-files, temporary files, and LOST-DIR directories.</string>
+    <string name="ignoreInfo_title">Hide ".Info" Files</string>
+    <string name="ignoreInfo_summary">Hide files whose name ends with \".info\".</string>
+    <string name="searchInfo_title">Check ".Info" Files</string>
+    <string name="searchInfo_summary">Check the file with same filename as the movie and with \".info\" extension. And if there is \"title=XXX\" line in the file, it is displayed as movie title in the directory list.</string>
+    <string name="pref_misc">miscellaneous</string>
+    <string name="ffSeconds_title">FF button seconds</string>
+    <string name="ffSeconds_summary">Set seconds of FF button(current:%s).</string>
+    <string name="rewSeconds_title">REW button seconds</string>
+    <string name="rewSeconds_summary">Set seconds of REW button(current:%s).</string>
+    <string name="selectSeconds">Select seconds</string>
+    <string name="resetDefault">Reset Default Directory</string>
+    <string name="resetDefault_summary">Reset default directory to \"/sdcard\"(the top of storage).</string>
+
+</resources>

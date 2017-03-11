@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory android:title="@string/pref_directoryList">
+<CheckBoxPreference 
+    android:key = "ignoreUnderscore"
+    android:title="@string/ignoreUnderscore_title"
+    android:summary="@string/ignoreUnderscore_summary" />
+    <CheckBoxPreference 
+    android:key = "ignoreDot"
+    android:defaultValue = "true"
+    android:title="@string/ignoreDot_title"
+    android:summary="@string/ignoreDot_summary" />
+ <CheckBoxPreference 
+    android:key = "ignoreInfo"
+    android:defaultValue = "false"
+    android:title="@string/ignoreInfo_title"
+    android:summary="@string/ignoreInfo_summary" />
+ <CheckBoxPreference 
+    android:key = "searchInfo"
+    android:defaultValue = "false"
+    android:title="@string/searchInfo_title"
+    android:summary="@string/searchInfo_summary" />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/pref_misc">
+<ListPreference 
+    android:key = "ffSeconds"
+    android:defaultValue = "15"
+    android:entryValues="@array/seconds"
+    android:entries="@array/seconds_title"
+    android:title="@string/ffSeconds_title"
+    android:summary="@string/ffSeconds_summary" 
+              android:dialogTitle="@string/selectSeconds"/>
+<ListPreference 
+    android:key = "rewSeconds"
+    android:defaultValue = "15"
+    android:entryValues="@array/seconds"
+    android:entries="@array/seconds_title"
+    android:title="@string/rewSeconds_title"
+    android:summary="@string/rewSeconds_summary" 
+              android:dialogTitle="@string/selectSeconds"/>
+</PreferenceCategory>
+</PreferenceScreen>
